@@ -1,3 +1,5 @@
+//Has ONE email been sent to ONE contact?
+
 package emailjob
 
 import (

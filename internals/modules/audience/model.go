@@ -1,3 +1,5 @@
+//Which group of people will receive emails?
+
 package audience
 
 import "time"

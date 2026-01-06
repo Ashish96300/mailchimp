@@ -1,4 +1,4 @@
-//Campaign is instruction
+//What message do we want to send, and to whom?
 
 package campaigns
 

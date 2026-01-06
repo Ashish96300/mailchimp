@@ -1,3 +1,5 @@
+//Who is one person receiving emails?
+
 package contact
 
 import "time"
