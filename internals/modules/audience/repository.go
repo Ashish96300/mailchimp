@@ -4,7 +4,7 @@ import(
 	"context"
 )
 
-type Repository interface{
+type repository interface{
 	Create(ctx context.Context ,audience *Audience) error
 	GetById(ctx context.Context ,id int64)(*Audience ,error)
 	ListByUser(ctx context.Context ,userID int64)([]Audience ,error)
