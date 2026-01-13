@@ -2,7 +2,7 @@ package user
 
 import "context"
 
-type Repository interface {
+type repository interface {
 	Create(ctx context.Context, user *User) error
 
 	GetById(ctx context.Context, id int64) (*User, error)
